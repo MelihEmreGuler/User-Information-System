@@ -1,0 +1,41 @@
+[
+    {
+        "ID" : 1,
+        "Username" : "MelihGuler",
+        "FirstName" : "Melih",
+        "LastName" : "Guler",
+        "Interest" :"Go, C#, Java, C++, Dart, Android",
+        "Profile" : "https://www.linkedin.com/in/melihemreguler/"
+    },
+    {
+        "ID" : 2,
+        "Username" : "OrhanGazi",
+        "FirstName" : "Orhan Gazi",
+        "LastName" : "Dizdaroğlu",
+        "Interest" :"Go, Mac OS, Docker, Kubernetes, Amazon Web Services, Google Cloud Platform, Web Development, Business Development, Graphic Design, Event Management, Git",
+        "Profile" : "https://www.linkedin.com/in/orhangazidizdaroglu/"
+    },
+    {
+        "ID" : 3,
+        "FirstName" : "Mehmet",
+        "LastName" : "Kara",
+        "Interest" :"Go, C#, Java, C++, Dart, Android",
+        "Profile" : "https://www.linkedin.com/in/mehmet-kara-5b1b4a1a/"
+    },
+    {
+        "ID" : 4,
+        "Username" : "Engin",
+        "FirstName" : "Engin",
+        "LastName" : "Demiroğ",
+        "Interest" :"Go, C#, Java, C++, Dart, Android, Google Cloud Platform, Web Development, Business Development",
+        "Profile" : "https://www.linkedin.com/in/engindemirog/"
+    },
+    {
+        "ID" : 5,
+        "Username": "Tolga",
+        "FirstName" : "Tolga",
+        "LastName" : "Tıkır", 
+        "Interest" : "Kotlin",
+        "Profile" : "https://www.linkedin.com/in/tolga-t%C4%B1k%C4%B1r-5b1b4a1a/"
+    }
+]

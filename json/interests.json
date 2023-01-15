@@ -1,0 +1,182 @@
+[
+    {
+        "ID" : 1,
+        "Name" : "GO"
+    },
+    {
+        "ID" : 2,
+        "Name" : "C#"
+    },
+    {
+        "ID" : 3,
+        "Name" : "Java"
+    },
+    {
+        "ID" : 4,
+        "Name" : "Python"
+    },
+    {
+        "ID" : 5,
+        "Name" : "C++"
+    },
+    {
+        "ID" : 6,
+        "Name" : "C"
+    },
+    {
+        "ID" : 7,
+        "Name" : "JavaScript"
+    },
+    {
+        "ID" : 8,
+        "Name" : "PHP"
+    },
+    {
+        "ID" : 9,
+        "Name" : "Ruby"
+    },
+    {
+        "ID" : 10,
+        "Name" : "Swift"
+    },
+    {
+        "ID" : 11,
+        "Name" : "R"
+    },
+    {
+        "ID" : 12,
+        "Name" : "Objective-C"
+    },
+    {
+        "ID" : 13,
+        "Name" : "Perl"
+    },
+    {
+        "ID" : 14,
+        "Name" : "Scala"
+    },
+    {
+        "ID" : 15,
+        "Name" : "Haskell"
+    },
+    {
+        "ID" : 16,
+        "Name" : "Lua"
+    },
+    {
+        "ID" : 17,
+        "Name" : "Clojure"
+    },
+    {
+        "ID" : 18,
+        "Name" : "Erlang"
+    },
+    {
+        "ID" : 19,
+        "Name" : "F#"
+    },
+    {
+        "ID" : 20,
+        "Name" : "Visual Basic"
+    },
+    {
+        "ID" : 21,
+        "Name" : "Delphi"
+    },
+    {
+        "ID" : 22,
+        "Name" : "Matlab"
+    },
+    {
+        "ID" : 23,
+        "Name" : "Groovy"
+    },
+    {
+        "ID" : 24,
+        "Name" : "Rust"
+    },
+    {
+        "ID" : 25,
+        "Name" : "Dart"
+    },
+    {
+        "ID" : 26,
+        "Name" : "Julia"
+    },
+    {
+        "ID" : 27,
+        "Name" : "Kotlin"
+    },
+    {
+        "ID" : 28,
+        "Name" : "SQL Server"
+    },
+    {
+        "ID" : 29,
+        "Name" : "Oracle"
+    },
+    {
+        "ID" : 30,
+        "Name" : "BigData"
+    },
+    {
+        "ID" : 31,
+        "Name" : "Machine Learning"
+    },
+    {
+        "ID" : 32,
+        "Name" : "Data Science"
+    },
+    {
+        "ID" : 33,
+        "Name" : "Linux"
+    },
+    {
+        "ID" : 34,
+        "Name" : "Windows"
+    },
+    {
+        "ID" : 35,
+        "Name" : "Android"
+    },
+    {
+        "ID" : 36,
+        "Name" : "Mac OS"
+    },
+    {
+        "ID" : 37,
+        "Name" : "Docker"
+    },
+    {
+        "ID" : 38,
+        "Name" : "Kubernetes"
+    },
+    {
+        "ID" : 39,
+        "Name" : "Amazon Web Services"
+    },
+    {
+        "ID" : 40,
+        "Name" : "Google Cloud Platform"
+    },
+    {
+        "ID" : 41,
+        "Name" : "Web Development"
+    },
+    {
+        "ID" : 42,
+        "Name" : "Business Development"
+    },
+    {
+        "ID" : 43,
+        "Name" : "Graphic Design"
+    },
+    {
+        "ID" : 44,
+        "Name" : "Event Management"
+    },
+    {
+        "ID" : 45,
+        "Name" : "Git"
+    }
+]
