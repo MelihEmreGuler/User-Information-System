@@ -4,19 +4,19 @@ import (
 	"encoding/json"
 	"net/http"
 
-	. "../dataloaders"
-	. "../models"
+	"github.com/MelihEmreGuler/user-information-system/dataloaders"
+	"github.com/MelihEmreGuler/user-information-system/models"
 )
 
 func Run() {
-	http.HandleFunc("/", Handler)
+	http.HandleFunc("/users", UsersHandler)
 	http.ListenAndServe(":8080", nil)
 
 }
 
-func Handler(w http.ResponseWriter, r *http.Request) {
+func UsersHandler(w http.ResponseWriter, r *http.Request) {
 	//pages
-	page := Page{
+	page := models.Page{
 		ID:          7,
 		Name:        "Users",
 		Description: "User List",
@@ -24,18 +24,20 @@ func Handler(w http.ResponseWriter, r *http.Request) {
 	}
 
 	//data loaders
-	users := LoadUsers()
-	interests := LoadInterests()
-	interestMappings := LoadinterestsMappings()
+	users := dataloaders.LoadUsers()
+	interests := dataloaders.LoadInterests()
+	interestMappings := dataloaders.LoadinterestsMappings()
 
 	//process data
-	var newUsers []User
+	var newUsers []models.User
 	for _, user := range users {
-		var newInterests []Interest
-		for _, interest := range interests {
-			for _, interestMapping := range interestMappings {
-				if interestMapping.UserID == user.ID && interestMapping.InterestID == interest.ID {
-					newInterests = append(newInterests, interest)
+		var newInterests []models.Interest
+		for _, interestMapping := range interestMappings {
+			if interestMapping.UserID == user.ID {
+				for _, interest := range interests {
+					if interestMapping.InterestID == interest.ID {
+						newInterests = append(newInterests, interest)
+					}
 				}
 			}
 		}
@@ -43,8 +45,8 @@ func Handler(w http.ResponseWriter, r *http.Request) {
 		newUsers = append(newUsers, user)
 	}
 
-	viewModel := UserViewModel{Page: page, Users: newUsers}
+	viewModel := models.UserViewModel{Page: page, Users: newUsers}
 	data, _ := json.Marshal(viewModel) //convert to json
-	w.Write(data)					 //write to response
+	w.Write([]byte(data))              //write to response
 
 }
