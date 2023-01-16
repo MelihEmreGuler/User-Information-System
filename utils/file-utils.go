@@ -7,7 +7,7 @@ import (
 
 func ReadFile(fileName string) (string, error) {
 	if IsEmpty(fileName) {
-		return "", errors.New("Boş veri dosya adı olarak kabul edilemez")
+		return "", errors.New("boş veri dosya adı olarak kabul edilemez")
 	}
 	content, err := ioutil.ReadFile(fileName)
 	if err != nil {
